@@ -9,78 +9,94 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <style>
             body{
-                background-color: #ffffff;
+                margin: 0;
+                background-color: LightGray;
             }
-            
-            
-          
-            
-            .grid-container{
-                display:grid;
-                
-                width:100%;
-                grid-template-columns:auto auto;
+            .header{
+                width: 1100px;
+                height: 1200px;
+                margin: auto;
             }
+            .nav{
+                width: 1600px;
+                margin: auto;
+                overflow: auto;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                float: left;
+            }
+            a:link{
+                color:white;
+                width: 180px;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                padding: 20px;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-family: Arial;
+            }
+            a:hover{
+                background-color: Gray;
+            }
+            .p{
+                padding-right:200px;
+            }
+
             
-            .grid-item1{
-              padding-top: 20px;
-               
-                 
-                }
-                
-                .grid-item2{
-                  padding-top: 20px;
-                  
-                   
-                }   
-                
-                
+            
         </style>
     </head>
-    
     <body>
-         <div style= "background-color:#154360;
-              width:1500px;
-              height:75px;
-              padding-top:5px;
-              padding-bottom:5px;" >
-             <h1><center>
-                     <font color=" #d1f2eb "  >Admin Pannel </font>
-                 </center></h1>
-             
-             </div>
-        
-        <div class="background">
-        <div class="grid-container">
-            <div class="grid-item1">
-                <center>
-                    <img src="room1.jpg" width="80%"  >
-                      <h2>Check Reservations</h2>
-                      <input type="date" name="check">
-                </center>
-                <center> 
-                    <input type="submit" value="Go">
-                </center>
-            </div>
+        <div class ="header">
+            <center> <h1>ENTERTAINMENT</h1></center>
+        <div class ="header">
+            <center> <img src="pool.jpg"></center>
             
-  <div class="grid-item2">
-      <center>
-          <img src="pool.jpg" width="80%">
-          <h2>Check Reservations</h2>
-         <input type="date" name="check">
-      </center>
-      
-    <center>  
-        <input type="submit" value="Go">
-    </center>
+            
+            
+            <ul class ="navbar">
+                <li><a href ="#"> Facilities </a></li>
+                <li><a href ="#"> Services </a></li>
+                <li><a href ="#"> Transportation </a></li>
+                <li><a href ="#"> Shops </a></li>
+                <li><a href ="#"> Foods & Beverages </a></li>
+            </ul>
+            <img src="swimming pool.jpg" width="400" height="300" alt="swimming pool" style="float:left">
+            <br><br><br><br><br>
+            
+            <center> <h1>Swimming pool</h1></center><br>
+            <p>  Plunge into the relaxed atmosphere that floats around not one, but three of our swimming pools. Feel all your fatigue wash away and a sense of calm take over your senses as you swim a few laps.</p>
+            <p>  Opening time: 8:00 a.m - 8:00 p.m</p>
+            <p>  Deluxe Ocean Wing Pool (for Deluxe Ocean Wing guests only) | Kids Pool | Pool for All</p>
+            
+            <br><br><br>
+            <img src="gym.jpg" width="400" height="300" alt="swimming pool" style="float:right">
+            <br><br>
+            
+            <center><h1>Gym</h1></center><br>
+            <p>  Feel free to use our fully equipped gym for your daily workout routine. Situated in the middle of the gardens, you will also love the beautiful green surroundings.</p>
+            <p>  Opening Hours: 8.00 a.m - 8.00 p.m </p>
+            
+            <br><br><br>
+            <img src="indoor games.jpg" width="400" height="300" alt="swimming pool" style="float:left">
+            <br><br>
+            
+            <center><h1>Indoor games</h1></center><br>
+            <p>  While staying with us why not engage in some activities to keep your mind and body occupied.Take in all the court in a game of Badminton. For those of you in larger crowds a riveting game of Cricket in our expansive green garden is the ideal way to spend your evening.</p>
+            <p>  Opening Hours: 8.00 a.m - 8.00 p.m</p>
+            
+        </div>
         
-      
-  </div>
-  </div>
-  </div>   
+       
+       
         
         
     </body>
