@@ -11,12 +11,6 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <style>
-            body{
-                background-color: #ffffff;
-            }
-            
-            
-          
             
             .grid-container{
                 display:grid;
@@ -27,23 +21,26 @@ and open the template in the editor.
             
             .grid-item1{
               padding-top: 20px;
-               
-                 
-                }
+             }
                 
                 .grid-item2{
                   padding-top: 20px;
-                  
-                   
-                }   
+               }   
                 
+               .button{
+                  margin-top: 10px;
+                   width:100px;
+                   height: 40px;
+                   background-color: #1a5276;
+
+               }
                 
         </style>
     </head>
     
-    <body>
+    <body bgcolor="#ebdef0">
          <div style= "background-color:#154360;
-              width:1500px;
+              width:100%;
               height:75px;
               padding-top:5px;
               padding-bottom:5px;" >
@@ -52,36 +49,37 @@ and open the template in the editor.
                  </center></h1>
              
              </div>
-        
+        <form action="adminServlet" method="post">
         <div class="background">
         <div class="grid-container">
             <div class="grid-item1">
                 <center>
-                    <img src="room1.jpg" width="80%"  >
+                    <img src="room2.jpg" width="50%"  >
                       <h2>Check Reservations</h2>
-                      <input type="date" name="check">
+                      <input type="text" name="check1">
                 </center>
                 <center> 
-                    <input type="submit" value="Go">
+                    <input class="button" type="submit" value="Go">
                 </center>
             </div>
             
   <div class="grid-item2">
       <center>
-          <img src="pool.jpg" width="80%">
+          <img src="pool.jpg" width="50%" >
           <h2>Check Reservations</h2>
-         <input type="date" name="check">
+         <input type="date" name="check2">
       </center>
       
     <center>  
-        <input type="submit" value="Go">
+        <input class="button"  type="submit" value="Go">
     </center>
         
+      
       
   </div>
   </div>
   </div>   
         
-        
+        </form>
     </body>
 </html>
